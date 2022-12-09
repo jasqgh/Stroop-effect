@@ -1,0 +1,8 @@
+jak dodać klasy tak żeby były w tablicy
+
+jak z tablicy wybierać spośród np 20 różnych 2 obiekty
+
+
+dlaczego tlko jeden kwadrat pojawia się w randomowym miejscu
+
+

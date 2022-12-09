@@ -1,0 +1,93 @@
+@import url(reset.css);
+
+html {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik Iso', cursive;
+}
+
+
+
+@keyframes tlo {
+    0%   {background-color:pink; left:0px; top:0;}
+  25%  {background-color:khaki; left:85%; top:0px;}
+  50%  {background-color:lightgreen;left:85%; top:80%;}
+  75%  {background-color:cornflowerblue;  left:0px; top:80%;}
+  100% {background-color:pink; left:0; top:0;}
+}
+
+.pudelko{
+    position: relative;
+    margin-top: 15%;
+    z-index: 99;
+    background: url(tlokwadraty.jpg);
+    background-size: contain;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    -webkit-filter: grayscale(25%);
+
+    
+}
+
+.pudelko:hover {
+-webkit-filter: grayscale(0%);
+}
+
+.start {
+    font-weight: 600;
+    text-shadow: 0.2rem 0 0.2rem #080808, 0 0.1rem 0.3rem #000000;
+    color: #FFFFFF;
+    font-size: 15.5vw;
+    text-align: center;
+    z-index: 99;
+    
+}
+
+
+
+
+.tlo {
+    position: absolute;
+    margin-top:-5%;
+    width: 15%;
+    height: 80%;
+    animation-name: tlo;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    z-index: -99;
+    
+}
+
+
+
+.boxy {
+    
+
+}
+
+.red {
+    background-color: red;
+    width:20vh;
+    min-height: 20vh;
+    position: sticky;
+    display: none;
+    
+}
+
+.green {
+    background-color: green;
+    width:20vh;
+    min-height: 20vh;
+    position: sticky;
+    display: none;
+    
+}
+
+.blue {
+    background-color: blue;
+    width:20vh;
+    min-height: 20vh;
+    position: sticky;
+    display: none;
+}
